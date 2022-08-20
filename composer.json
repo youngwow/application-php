@@ -1,0 +1,24 @@
+{
+    "name": "boyarkin/app",
+    "description": "task one",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Boyarkin\\App\\": "src/"
+        },
+        "classmap": [
+            "views/pages/Root.php",
+            "views/pages/NotFoundHttpException.php",
+            "views/pages/server/api/Json.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "youngwow",
+            "email": "nikitaboyarkin15@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
