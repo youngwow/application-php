@@ -5,13 +5,9 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Boyarkin\\App\\": "src/"
-        },
-        "classmap": [
-            "views/pages/Root.php",
-            "views/pages/NotFoundHttpException.php",
-            "views/pages/server/api/Json.php"
-        ]
+            "Boyarkin\\App\\": "src/",
+            "Boyarkin\\App\\Pages\\": "views/pages"
+        }
     },
     "authors": [
         {
